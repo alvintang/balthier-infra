@@ -6,4 +6,7 @@ module "cognito_user_pool" {
 
     google_client_id = var.google_client_id
     google_client_secret = var.google_client_secret
+
+    callback_urls = var.callback_urls
+    logout_urls = var.logout_urls
 }
